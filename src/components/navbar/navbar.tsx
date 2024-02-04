@@ -34,7 +34,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="flex justify-between items-center m-3 font-Epilogue text-md sticky top-0 z-50 bg-white p-5">
+            <div className="flex justify-between items-center m-3 font-Epilogue text-md sticky top-0 z-[70] bg-white p-5">
 
                 <img src="/logo.png" alt="logo" className="w-10 h-10" />
 

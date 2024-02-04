@@ -1,7 +1,7 @@
 export default function Organisations() {
     return (
         <>
-            <div className="flex flex-col items-center justify-around bg-gray-100">
+            <div className="flex flex-col items-center justify-around bg-gray-100 mb-20">
                 <div className="flex flex-col justify-center items-center gap-4 mt-20">
                     <p className="text-3xl text-center font-semibold text-gray-800">Trusted by Leading Organisations</p>
                     <p className="text-md md:text-lg text-gray-600 font-semibold w-full md:w-3/4 text-center">Our 4,000+ team has expertise in almost everyprogramming language.</p>
@@ -35,7 +35,5 @@ export default function Organisations() {
                 <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded-full m-10">Out Full Repertorie</button>
             </div>
         </>
-
-        /* 21 22 18 40 60 */
     )
 }
