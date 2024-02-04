@@ -4,7 +4,7 @@ import Subscribe from "./subscribe";
 export default function Contacts() {
     return (
         <>
-            <div className="flex flex-col md:flex-row justify-around px-10 mt-56 gap-20 md:m-10">
+            <div className="flex flex-col lg:flex-row justify-around px-10 mt-56 gap-20 md:mt-56">
                 <div className="flex flex-col-reverse items-start md:justify-between gap-10 md:gap-36 md:flex-row">
                     <div className="flex justify-center gap-10 md:gap-36">
                         <div className="">
