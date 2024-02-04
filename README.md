@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Landing Page Recreation Project
 
-Currently, two official plugins are available:
+This project involves recreating a design into a functional landing page using TypeScript, Vite.js, TailwindCSS for styling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Challenges Faced
+### Responsive Design
+#### Implementing a responsive design that aligns with the provided Figma design across various screen sizes posed a challenge. Overcoming this involved iterative adjustments and testing.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Lessons Learned
+Responsive Design Techniques: Gained deeper insights into responsive design strategies, such as media queries and flexible layouts.
 
-- Configure the top-level `parserOptions` property like this:
+Thank you for considering my submission for the Landing Page Recreation Project. This README.md file provides comprehensive documentation on design decisions, challenges faced, and other relevant details.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Usage
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ak3311g/xerocode-assignment.git
+
+# Change into the project directory
+cd your-repository
+
+# Install dependencies
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Thank you for the opportunity. I look forward to your feedback.
